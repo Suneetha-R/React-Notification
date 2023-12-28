@@ -1,0 +1,43 @@
+/* Write your code here. */
+.notification_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  display: flex;
+}
+h1 {
+  text-align: center;
+}
+img {
+  height: 20px;
+}
+.box1 {
+  background-color: #0b69ff;
+  width: 200px;
+  padding: 5px;
+}
+
+.box2 {
+  background-color: #2dca73;
+  width: 200px;
+  padding: 5px;
+}
+.box3 {
+  background-color: #ffb800;
+  width: 200px;
+  padding: 5px;
+}
+.box4 {
+  background-color: #ff0b37;
+  width: 200px;
+  padding: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  li {
+    width: 60%;
+  }
+}
